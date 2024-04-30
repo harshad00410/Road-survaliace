@@ -18,7 +18,7 @@ dbs= mysql.connector.connect(
 @app.route('/')
 
 def index():
-    return render_template('index.html')
+    return render_template('ghome.html')
 
 
 @app.route('/upload', methods=['POST'])
